@@ -1,0 +1,139 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"); 
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+  borer: 1px solid white ;
+}
+@media screen {
+
+}
+body,html{
+  font: 22px 'Raleway';
+  background-color: black;
+  text-align: center;
+  color: seashell;
+  opacity: 0.9 ;
+  
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    top:0;
+    z-index: 1;
+    align-items: center;
+    background-color: black;
+}
+.logo{
+  margin-left: 10px;
+  margin-top: 5px;
+  height: 60px;
+  width: auto;
+
+}
+nav li{
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav li a{
+  margin: 0 40px;
+
+  color: seashell;
+}
+nav li a:hover{
+  position: relative;
+  top:  0.1em;
+  opacity: 0.5;
+  text-decoration: underline;
+  transition-duration: 0.5s;
+}
+/*  main  */
+
+  #mission{
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    background-image: url(../img/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    margin: auto;
+  }
+  #mission > div{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    line-height: 1.4;
+    font-weight: 900;
+  }
+  
+  #featured-tea{
+    width: 1000px;
+    margin: 50px auto;
+    text-transform: capitalize;
+  }
+  #featured-images{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  figure{
+    margin: 15px;
+  }
+  figcaption{
+    margin-top: 10px;
+  }
+  #featured-header > *{
+    margin: 15px auto;
+  }
+  #location{
+    background: url(../img/img-locations-background.jpg) no-repeat center ;
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    text-transform: capitalize;
+    opacity: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  @media screen and (max-width: 700px ){
+    
+  }
+  .location-title{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .address{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+  }
+  .address > *:nth-child(4){
+    margin-bottom: 5px;
+  }
+  #contact{
+    height: 200px;
+    width: inherit;
+  }
+  #copyright{
+    margin-left: 10px;
+    width: calc(100%-10px);
+    text-align: start;
+  }
+  #contact > h2{
+    text-transform: capitalize;
+    margin: 10px 0 30px;
+  }
+
